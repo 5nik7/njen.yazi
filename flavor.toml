@@ -3,7 +3,7 @@
 # : App {{{
 
 [app]
-overall = { bg = "#181825" }
+overall = {}
 
 # : }}}
 
@@ -11,7 +11,7 @@ overall = { bg = "#181825" }
 # : Manager {{{
 
 [mgr]
-cwd = { fg = "#94e2d5" }
+cwd = { fg = "#94e2d5", bg = "#181825" }
 
 # hovered = { bg = "#313244" }
 # preview_hovered = { underline = true }
