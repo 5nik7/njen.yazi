@@ -13,8 +13,8 @@ overall = {}
 [mgr]
 cwd = { fg = "#94e2d5" }
 
-hovered = { bg = "#313244" }
-preview_hovered = { underline = true }
+# hovered = { bg = "#313244" }
+# preview_hovered = { underline = true }
 
 # Find
 find_keyword = { fg = "#f9e2af", bold = true, italic = true, underline = true }
@@ -70,12 +70,15 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 
 # : Indicator of hovered file {{{
 
-# [indicator]
-# parent = { reversed = true, bold = true }
-# current = { reversed = true, bold = true }
-# preview = { bg = "#313244", underline = false, bold = true }
-# padding = { open = "█", close = "█" }
+[indicator]
+parent = { reversed = true, bold = true }
+current = { reversed = true, bold = true }
+preview = { bg = "#313244", underline = false, bold = true }
+padding = { open = "█", close = "█" }
+
 # : }}}
+
+
 # : Status bar {{{
 
 [status]
