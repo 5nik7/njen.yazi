@@ -69,7 +69,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 
 [indicator]
 parent = { reversed = true, bold = true }
-current = { reversed = true, bold = true, fg = "#f5e0dc" }
+current = { reversed = true, bold = true }
 preview = { bg = "#313244", underline = false, bold = true }
 padding = { open = "█", close = "█" }
 # : }}}
