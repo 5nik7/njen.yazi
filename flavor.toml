@@ -13,7 +13,7 @@ overall = {}
 [mgr]
 cwd = { fg = "lightcyan" }
 
-# hovered = { bg = "#313244" }
+# hovered = { bg = "black" }
 # preview_hovered = { underline = true }
 
 # Find
@@ -55,8 +55,8 @@ sep_outer = { open = "", close = "" }
 
 [mode]
 
-normal_main = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
-normal_alt = { fg = "#89b4fa", bg = "#313244" }
+normal_main = { fg = "#1e1e2e", bg = "blue", bold = true }
+normal_alt = { fg = "blue", bg = "black" }
 
 # Select mode
 select_main = { fg = "#1e1e2e", bg = "#94e2d5", bold = true }
@@ -71,10 +71,10 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 # : Indicator of hovered file {{{
 
 [indicator]
-parent = { reversed = false, bold = true }
-current = { reversed = false, bold = true }
-preview = { bg = "#313244", underline = false, bold = true }
-padding = { open = " ", close = " " }
+parent = { reversed = true, bold = true }
+current = { reversed = true, bold = true }
+preview = { bg = "black", underline = false, bold = true }
+padding = { open = "█", close = "█" }
 
 # : }}}
 
@@ -87,7 +87,7 @@ sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 # Permissions
-perm_sep = { fg = "#7f849c" }
+perm_sep = { fg = "black" }
 perm_type = { fg = "#89b4fa" }
 perm_read = { fg = "#f9e2af" }
 perm_write = { fg = "#f38ba8" }
@@ -191,7 +191,7 @@ title_error = { fg = "#f38ba8" }
 
 rules = [
   # Image
-  { mime = "image/*", fg = "#94e2d5" },
+  { mime = "image/*", fg = "lightmagenta" },
   # Media
   { mime = "{audio,video}/*", fg = "#f9e2af" },
   # Archive
@@ -199,7 +199,7 @@ rules = [
   # Document
   { mime = "application/{pdf,doc,rtf}", fg = "#a6e3a1" },
   # Virtual file system
-  { mime = "vfs/{absent,stale}", fg = "#9399b2" },
+  { mime = "vfs/{absent,stale}", fg = "gray" },
   # Fallback
   { url = "*", fg = "#cdd6f4" },
   { url = "*/", fg = "lightblue" },
