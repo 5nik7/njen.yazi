@@ -71,10 +71,10 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 # : Indicator of hovered file {{{
 
 [indicator]
-parent = { reversed = true, bold = true, dim = true }
-current = { reversed = true, bold = true }
+parent = { reversed = false, bold = true }
+current = { reversed = false, bold = true }
 preview = { bg = "#313244", underline = false, bold = true }
-padding = { open = "█", close = "█" }
+padding = { open = " ", close = " " }
 
 # : }}}
 
