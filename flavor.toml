@@ -67,7 +67,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 [indicator]
 parent = { reversed = true }
 current = { reversed = true }
-preview = { underline = true }
+preview = { bg = "#313244", underline = false }
 padding = { open = "█", close = "█" }
 
 # : }}}
