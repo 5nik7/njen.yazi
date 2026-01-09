@@ -62,10 +62,23 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 
 # : }}}
 
+# : Indicator of hovered file {{{
+
+[indicator]
+parent = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
+padding = { open = "", close = "" }
+
+# : }}}
 
 # : Status bar {{{
 
 [status]
+overall = {}
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
 # Permissions
 perm_sep = { fg = "#7f849c" }
 perm_type = { fg = "#89b4fa" }
