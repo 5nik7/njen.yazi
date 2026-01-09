@@ -11,7 +11,7 @@ overall = {}
 # : Manager {{{
 
 [mgr]
-cwd = { fg = "#94e2d5", bg = "#181825" }
+cwd = { fg = "lightcyan" }
 
 # hovered = { bg = "#313244" }
 # preview_hovered = { underline = true }
@@ -71,7 +71,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 # : Indicator of hovered file {{{
 
 [indicator]
-parent = { reversed = true, bold = true }
+parent = { reversed = true, bold = true, dim = true }
 current = { reversed = true, bold = true }
 preview = { bg = "#313244", underline = false, bold = true }
 padding = { open = "█", close = "█" }
@@ -202,10 +202,10 @@ rules = [
   { mime = "vfs/{absent,stale}", fg = "#9399b2" },
   # Fallback
   { url = "*", fg = "#cdd6f4" },
-  { url = "*/", fg = "#89b4fa" },
+  { url = "*/", fg = "lightblue" },
   # TODO: remove
   { name = "*", fg = "#cdd6f4" },
-  { name = "*/", fg = "#89b4fa" },
+  { name = "*/", fg = "lightblue" },
 ]
 
 # : }}}
