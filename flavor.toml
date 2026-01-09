@@ -13,11 +13,6 @@ overall = {}
 [mgr]
 cwd = { fg = "#94e2d5" }
 
-# TODO: remove
-# Hovered
-hovered = { reversed = true }
-preview_hovered = { underline = true }
-
 # Find
 find_keyword = { fg = "#f9e2af", bold = true, italic = true, underline = true }
 find_position = { fg = "#f5c2e7", bg = "reset", bold = true, italic = true }
@@ -74,12 +69,10 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 
 [indicator]
 parent = { reversed = true, bold = true }
-current = { reversed = true, bold = true }
+current = { reversed = true, bold = true, fg = "#89b4fa" }
 preview = { bg = "#313244", underline = false, bold = true }
-padding = {}
-
+padding = { open = "█", close = "█" }
 # : }}}
-
 # : Status bar {{{
 
 [status]
