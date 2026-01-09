@@ -38,6 +38,10 @@ border_style = { fg = "#313244" }
 active = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
 inactive = { fg = "#89b4fa", bg = "#313244" }
 
+# Separator
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
 # : }}}
 
 
