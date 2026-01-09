@@ -3,7 +3,7 @@
 # : App {{{
 
 [app]
-overall = {}
+overall = { bg = "#181825" }
 
 # : }}}
 
