@@ -33,7 +33,7 @@ count_selected = { fg = "#1e1e2e", bg = "#f9e2af" }
 
 # Border
 border_symbol = "│"
-border_style = { fg = "#313244" }
+border_style = { fg = "black" }
 
 # : }}}
 
