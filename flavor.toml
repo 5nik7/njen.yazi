@@ -39,7 +39,7 @@ active = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
 inactive = { fg = "#89b4fa", bg = "#313244" }
 
 # Separator
-sep_inner = { open = "[", close = "]" }
+sep_inner = { open = "", close = "" }
 sep_outer = { open = "", close = "" }
 
 # : }}}
@@ -76,8 +76,8 @@ padding = { open = "█", close = "█" }
 
 [status]
 overall = {}
-sep_left = { open = "█", close = "" }
-sep_right = { open = "", close = "█" }
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
 
 # Permissions
 perm_sep = { fg = "#7f849c" }
