@@ -67,7 +67,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 [indicator]
 parent = { reversed = true, bold = true }
 current = { reversed = true, bold = true }
-preview = { underline = true, fg = "#74c7ec" }
+preview = { underline = true, fg = "#f2cdcd", bg = "#313244" }
 padding = { open = "█", close = "█" }
 # : }}}
 
@@ -187,7 +187,7 @@ icon_error = ""
 
 rules = [
   # Image
-  { mime = "image/*", fg = "#cba6f7" },
+  { mime = "image/*", fg = "#cba6f7", bold = true },
   # Media
   { mime = "{audio,video}/*", fg = "#f5c2e7" },
   # Archive
@@ -205,9 +205,14 @@ rules = [
   { url = "*", is = "orphan", fg = "#181825", bg = "#f38ba8", bold = true },
   { url = "*", is = "fifo", fg = "#11111b", bg = "#89b4fa" },
   { url = "*", is = "sock", fg = "#11111b", bg = "#f5c2e7" },
-  { url = "*.git*", fg = "#585b70", bold = true },
-  { url = "*.dockerignore", fg = "#585b70", bold = true },
-  { url = "*.editorconfig", fg = "#585b70", bold = true },
+  { url = "*.md", fg = "#b4befe", bold = true },
+  { url = "*.toml", fg = "#fab387", bold = true },
+  { url = "*.json", fg = "#fab387", bold = true },
+  { url = "*.xml", fg = "#fab387", bold = false },
+  { url = "*.git*", fg = "#7f849c", bold = true },
+  { url = "*.dockerignore", fg = "#7f849c", bold = true },
+  { url = "*.editorconfig", fg = "#7f849c", bold = true },
+  { url = "*LICENSE*", fg = "#7f849c", bold = true },
   { url = "*package-lock.json", fg = "#6c7086" },
 ]
 
