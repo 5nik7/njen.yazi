@@ -228,8 +228,7 @@ dirs = [
 conds = [
   # Special files
   { if = "orphan", text = "", fg = "#cdd6f4" },
-  { if = "link", text = "", fg = "#7f849c" },
-  { if = "dir & link", text = " ", fg = "#7f849c" },
+  { if = "link", text = "", fg = "#7f849c" },
   { if = "block", text = "", fg = "#f2cdcd" },
   { if = "char", text = "", fg = "#f2cdcd" },
   { if = "fifo", text = "", fg = "#f2cdcd" },
@@ -238,8 +237,8 @@ conds = [
   { if = "dummy", text = "", fg = "#f38ba8" },
 
   # Fallback
-  { if = "dir & hovered", text = "", fg = "#89b4fa" },
-  { if = "dir", text = "", fg = "#89b4fa" },
+  { if = "dir & hovered", text = "", fg = "#89b4fa" },
+  { if = "dir", text = "", fg = "#89b4fa" },
   { if = "exec", text = "", fg = "#a6e3a1" },
   { if = "!dir", text = "", fg = "#cdd6f4" },
 ]
