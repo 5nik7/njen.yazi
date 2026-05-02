@@ -208,7 +208,10 @@ rules = [
 # : }}}
 
 [icon]
-
+prepend_conds = [
+  { if = "hidden & dir", text = "󱞞" },               # Hidden directories
+  { if = "dir & link", text = "", fg = "#74c7ec" },
+]
 dirs = [
   { name = ".config", text = "", fg = "#f5c2e7" },
   { name = "dots", text = "", fg = "#f5c2e7" },
@@ -229,7 +232,7 @@ dirs = [
 conds = [
   # Special files
   { if = "orphan", text = "", fg = "#cdd6f4" },
-  { if = "link", text = "", fg = "#7f849c" },
+  { if = "link", text = " ", fg = "#74c7ec" },
   { if = "block", text = "", fg = "#f2cdcd" },
   { if = "char", text = "", fg = "#f2cdcd" },
   { if = "fifo", text = "", fg = "#f2cdcd" },
@@ -238,8 +241,8 @@ conds = [
   { if = "dummy", text = "", fg = "#f38ba8" },
 
   # Fallback
-  { if = "dir & hovered", text = "", fg = "#89b4fa" },
-  { if = "dir", text = "", fg = "#89b4fa" },
-  { if = "exec", text = "", fg = "#a6e3a1" },
+  { if = "dir & hovered", text = "", fg = "lightblue" },
+  { if = "dir", text = "", fg = "blue" },
+  { if = "exec", text = "", fg = "lightgreen" },
   { if = "!dir", text = "", fg = "#cdd6f4" },
 ]
