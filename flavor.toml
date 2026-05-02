@@ -211,17 +211,17 @@ rules = [
 
 dirs = [
   { name = ".config", text = "", fg = "#f5c2e7" },
-  { name = ".git", text = "", fg = "#94e2d5" },
-  { name = ".github", text = "", fg = "#89b4fa" },
+  { name = ".git", text = "󰊢", fg = "#94e2d5" },
+  { name = ".github", text = "", fg = "#89b4fa" },
   { name = ".npm", text = "", fg = "#89b4fa" },
   { name = "Desktop", text = "", fg = "#94e2d5" },
   { name = "Development", text = "", fg = "#94e2d5" },
-  { name = "Documents", text = "", fg = "#94e2d5" },
-  { name = "Downloads", text = "", fg = "#94e2d5" },
+  { name = "Documents", text = "󱔘", fg = "#94e2d5" },
+  { name = "Downloads", text = "󰇚", fg = "#94e2d5" },
   { name = "Library", text = "", fg = "#94e2d5" },
   { name = "Movies", text = "", fg = "#94e2d5" },
   { name = "Music", text = "", fg = "#94e2d5" },
-  { name = "Pictures", text = "", fg = "#94e2d5" },
+  { name = "Pictures", text = "", fg = "#94e2d5" },
   { name = "Public", text = "", fg = "#94e2d5" },
   { name = "Videos", text = "", fg = "#94e2d5" },
 ]
