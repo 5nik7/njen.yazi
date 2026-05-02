@@ -203,8 +203,8 @@ rules = [
   # Fallback
   { url = "*", is = "block", fg = "#74c7ec", bg = "#313244" },
   { url = "*", is = "char", fg = "#f5c2e7", bg = "#313244" },
+  { url = "dots/", fg = "lightmagenta", bold = true },
   { url = "*/", fg = "lightblue", bold = true },
-  { url = "*dots/", fg = "lightmagenta", bold = true },
   { url = "*", is = "exec", fg = "#a6e3a1", bold = true },
   { url = "*", is = "link", fg = "#89dceb" },
   { url = "*", is = "orphan", fg = "#181825", bg = "#f38ba8", bold = true },
