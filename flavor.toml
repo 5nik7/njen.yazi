@@ -11,22 +11,16 @@ overall = {}
 # : Manager {{{
 
 [mgr]
-cwd = { fg = "lightcyan" }
+cwd = { fg = "#cba6f7", bold = true }
 
-# hovered = { bg = "black" }
-# preview_hovered = { underline = true }
-
-# Find
 find_keyword = { fg = "#f9e2af", bold = true, italic = true, underline = true }
 find_position = { fg = "#f5c2e7", bg = "reset", bold = true, italic = true }
-
-# Marker
+symlink_target = { fg = "#89dceb", italic = true }
 marker_copied = { fg = "#a6e3a1", bg = "#a6e3a1" }
 marker_cut = { fg = "#f38ba8", bg = "#f38ba8" }
 marker_marked = { fg = "#94e2d5", bg = "#94e2d5" }
 marker_selected = { fg = "#f9e2af", bg = "#f9e2af" }
 
-# Count
 count_copied = { fg = "#1e1e2e", bg = "#a6e3a1" }
 count_cut = { fg = "#1e1e2e", bg = "#f38ba8" }
 count_selected = { fg = "#1e1e2e", bg = "#f9e2af" }
