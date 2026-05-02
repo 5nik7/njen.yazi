@@ -208,10 +208,7 @@ rules = [
 # : }}}
 
 [icon]
-prepend_conds = [
-  { if = "hidden & dir", text = "󱞞" },               # Hidden directories
-  { if = "dir & link", text = "", fg = "#74c7ec" },
-]
+prepend_conds = [{ if = "link & dir", text = "", fg = "#74c7ec" }]
 dirs = [
   { name = ".config", text = "", fg = "#f5c2e7" },
   { name = "dots", text = "", fg = "#f5c2e7" },
@@ -242,6 +239,7 @@ conds = [
 
   # Fallback
   { if = "dir & hovered", text = "", fg = "lightblue" },
+  { if = "hidden & dir", text = "󱞞" },
   { if = "dir", text = "", fg = "blue" },
   { if = "exec", text = "", fg = "lightgreen" },
   { if = "!dir", text = "", fg = "#cdd6f4" },
