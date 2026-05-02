@@ -206,6 +206,7 @@ rules = [
   { url = "*/", fg = "lightblue", bold = true },
   { url = "*", is = "exec", fg = "#a6e3a1", bold = true },
   { url = "*", is = "link", fg = "#89dceb" },
+  { url = "* ->", is = "link", fg = "darkgray" },
   { url = "*", is = "orphan", fg = "#181825", bg = "#f38ba8", bold = true },
   { url = "*", is = "fifo", fg = "#11111b", bg = "#89b4fa" },
   { url = "*", is = "sock", fg = "#11111b", bg = "#f5c2e7" },
