@@ -211,7 +211,7 @@ rules = [
 
 dirs = [
   { name = ".config", text = "", fg = "#f5c2e7" },
-  { name = "dots", text = "󰧞", fg = "#f5c2e7" },
+  { name = "dots", text = "", fg = "#f5c2e7" },
   { name = ".git", text = "󰊢", fg = "#6c7086" },
   { name = ".github", text = "", fg = "#6c7086" },
   { name = ".npm", text = "", fg = "#6c7086" },
