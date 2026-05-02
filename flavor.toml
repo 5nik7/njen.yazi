@@ -217,7 +217,7 @@ dirs = [
   { name = "Desktop", text = "", fg = "#94e2d5" },
   { name = "Development", text = "", fg = "#94e2d5" },
   { name = "Documents", text = "󱔘", fg = "#94e2d5" },
-  { name = "Downloads", text = "󰇚", fg = "#94e2d5" },
+  { name = "Downloads", text = "󰉍", fg = "#94e2d5" },
   { name = "Library", text = "", fg = "#94e2d5" },
   { name = "Movies", text = "", fg = "#94e2d5" },
   { name = "Music", text = "", fg = "#94e2d5" },
@@ -229,6 +229,7 @@ conds = [
   # Special files
   { if = "orphan", text = "", fg = "#cdd6f4" },
   { if = "link", text = "", fg = "#7f849c" },
+  { if = "dir & link", text = " ", fg = "#7f849c" },
   { if = "block", text = "", fg = "#f2cdcd" },
   { if = "char", text = "", fg = "#f2cdcd" },
   { if = "fifo", text = "", fg = "#f2cdcd" },
