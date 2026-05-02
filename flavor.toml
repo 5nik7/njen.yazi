@@ -229,7 +229,7 @@ dirs = [
 conds = [
   # Special files
   { if = "orphan", text = "", fg = "#cdd6f4" },
-  { if = "link", fg = "#74c7ec" },
+  { if = "link", text = "", fg = "#74c7ec" },
   { if = "block", text = "", fg = "#f2cdcd" },
   { if = "char", text = "", fg = "#f2cdcd" },
   { if = "fifo", text = "", fg = "#f2cdcd" },
