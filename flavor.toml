@@ -226,8 +226,7 @@ conds = [
   { if = "dummy", text = "", fg = "#f38ba8" },
 
   # Fallback
-  { if = "dir & hovered", text = "", fg = "
-    "blue" },
+  { if = "dir & hovered", text = "", fg = "blue" },
   { if = "hidden & dir", text = "", fg = "blue" },
   { if = "dir", text = "", fg = "blue" },
   { if = "exec", text = "", fg = "lightgreen" },
