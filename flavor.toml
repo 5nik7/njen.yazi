@@ -67,7 +67,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 [indicator]
 parent = { reversed = true, bold = true }
 current = { reversed = true, bold = true }
-preview = { underline = true, fg = "#f2cdcd", bg = "#313244" }
+preview = { underline = true, bg = "#313244" }
 padding = { open = "█", close = "█" }
 # : }}}
 
@@ -205,6 +205,8 @@ rules = [
   { url = "*", is = "orphan", fg = "#181825", bg = "#f38ba8", bold = true },
   { url = "*", is = "fifo", fg = "#11111b", bg = "#89b4fa" },
   { url = "*", is = "sock", fg = "#11111b", bg = "#f5c2e7" },
+  { url = "*.log", fg = "#a6adc8", bold = true },
+
   { url = "*.md", fg = "#b4befe", bold = true },
   { url = "*.toml", fg = "#fab387", bold = true },
   { url = "*.json", fg = "#fab387", bold = true },
