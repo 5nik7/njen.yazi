@@ -74,8 +74,7 @@ unset_alt = { fg = "#f2cdcd", bg = "#313244" }
 parent = { reversed = true, bold = true }
 current = { reversed = true, bold = true }
 preview = { bg = "black", underline = false, bold = true }
-padding = { open = "█", close = "" }
-
+padding = { open = "█", close = "█" }
 # : }}}
 
 
@@ -181,6 +180,9 @@ tbl_cell = { fg = "#f5c2e7", bg = "#45475a" }
 title_info = { fg = "#a6e3a1" }
 title_warn = { fg = "#f9e2af" }
 title_error = { fg = "#f38ba8" }
+icon_info = ""
+icon_warn = ""
+icon_error = ""
 
 # : }}}
 
@@ -203,7 +205,6 @@ rules = [
   # Fallback
   { url = "*", is = "block", fg = "#74c7ec", bg = "#313244" },
   { url = "*", is = "char", fg = "#f5c2e7", bg = "#313244" },
-  { url = "dots/", fg = "lightmagenta", bold = true },
   { url = "*/", fg = "lightblue", bold = true },
   { url = "*", is = "exec", fg = "#a6e3a1", bold = true },
   { url = "*", is = "link", fg = "#89dceb" },
